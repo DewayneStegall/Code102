@@ -3,7 +3,7 @@ function hello() {
     document.write("It is cool to meet you "+ name);
     }   
 function bikes() {
-    let favorite = prompt("What 3 Bikes do you like the Most?);
+    let favorite = prompt("What 3 Bikes do you like the Most?");
     document.write("Your choice is: " + favorite);
         if ( favorite === "R1") {
             document.write("That's a great choice!");   
@@ -21,10 +21,10 @@ function color() {
         let number = 1;
         console.log(number++)
 
-        alert("What are your 2 fav colors?")
+        alert("What are your 2 fav bikes?")
         for( let i = 1 ; i <= 2; i++ ) {
-            let color = prompt("Your favorite colors #" + i);
-            document.write(color)
+            let color = prompt("Your favorite bikes names" + i);
+            document.write(bikes)
         }
     }
 function name() {     
